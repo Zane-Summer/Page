@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 50px 40px;
+            max-width: 500px;
+            text-align: center;
+            animation: fadeIn 0.8s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.8;
+        }
+        .emoji {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">👋</div>
+        <h1>Hello, My Friend</h1>
+        <p>
+            Page<br>
+            GOAT<br><br>
+        </p>
+    </div>
+</body>
+</html>
